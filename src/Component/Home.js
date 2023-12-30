@@ -210,43 +210,40 @@ const Home = () => {
                             <td><input type="text" className="px-2 ms-1 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-black-600 sm:text-sm sm:leading-6"/></td>
                         </tr>
                         <tr>
-                            <th className='text-left'><label className='text-sm font-bold'>Vendor Order</label></th>
-                            <td><input type="text" className="px-2 ms-1 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-black-600 sm:text-sm sm:leading-6"/></td>
+                            <th className='text-left'><label className='text-sm font-bold'>Remarks</label></th>
+                            <td><textarea type="text" className="ps-6 px-2 ms-1 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-black-600 sm:text-sm sm:leading-6"/></td>
                         </tr>
                         <tr>
-                            <th className='text-left'><label className='text-sm font-bold'>Payment Status</label></th>
-                            <td><input type="text" className="px-2 ms-1 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-black-600 sm:text-sm sm:leading-6"/></td>
+                            <th></th>
+                            <div>
+                            <td><button  className='mt-2 rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600' >Fulfilled</button></td>
+                            <td><button  className='mt-2 rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600' >Pay</button></td>
+                            </div>
                         </tr>
-                        <tr>
-                            <th className='text-left'><label className='text-sm font-bold'>Vendor</label></th>
-                            <td><input type="text" className="px-2 ms-1 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-black-600 sm:text-sm sm:leading-6"/></td>
-                        </tr>
-                        <tr>
-                            
-                            <td><input type='submit' className='mt-2 rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600' value='Search'/></td>
-                        </tr>
+                        
+                       
                         
                     </table>
                     <table className='m-2'>
                         <tr>
-                            <th className='text-left'><label className='text-sm font-bold'>Order</label></th>
+                            <th className='text-left'><label className='text-sm font-bold'>Sub-Total</label></th>
                             <td><input type="text" className="px-2 ms-1 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-black-600 sm:text-sm sm:leading-6"/></td>
                         </tr>
                         <tr>
-                            <th className='text-left'><label className='text-sm font-bold'>Vendor Order</label></th>
+                            <th className='text-left'><label className='text-sm font-bold'>Freight</label></th>
                             <td><input type="text" className="px-2 ms-1 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-black-600 sm:text-sm sm:leading-6"/></td>
                         </tr>
                         <tr>
-                            <th className='text-left'><label className='text-sm font-bold'>Payment Status</label></th>
+                            <th className='text-left'><label className='text-sm font-bold'>Total</label></th>
                             <td><input type="text" className="px-2 ms-1 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-black-600 sm:text-sm sm:leading-6"/></td>
                         </tr>
                         <tr>
-                            <th className='text-left'><label className='text-sm font-bold'>Vendor</label></th>
+                            <th className='text-left'><label className='text-sm font-bold'>Paid</label></th>
                             <td><input type="text" className="px-2 ms-1 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-black-600 sm:text-sm sm:leading-6"/></td>
                         </tr>
                         <tr>
-                            
-                            <td><input type='submit' className='mt-2 rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600' value='Search'/></td>
+                            <th className='text-left'><label className='text-sm font-bold'>Balance</label></th>
+                            <td className='text-right'><label className='text-sm font-bold'>0000 tk</label></td>
                         </tr>
                         
                     </table>

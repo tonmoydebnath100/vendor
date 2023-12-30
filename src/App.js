@@ -3,6 +3,7 @@ import './App.css';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Main from './Layout/Main';
 import Home from './Component/Home';
+import AddNewVendor from './Component/AddNewVendor';
 
 function App() {
   const router = createBrowserRouter([{
@@ -12,6 +13,10 @@ function App() {
       {
         path: '/',
         element: <Home></Home>
+      },
+      {
+        path: '/addnewvendor',
+        element: <AddNewVendor></AddNewVendor>
       },
     
 
